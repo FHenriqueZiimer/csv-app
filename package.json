@@ -1,0 +1,20 @@
+{
+  "name": "csv-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm install --prefix ./server && npm install --prefix ./client && npm i -g concurrently",
+    "react": "npm start --prefix client",
+    "start": "npx nodemon ./server/src/app.ts",
+    "dev": "concurrently \"npm run start\" \"npm run react\"",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
