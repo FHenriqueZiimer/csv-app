@@ -1,4 +1,4 @@
-# CSV-reader
+# csv-app
 
 # Project Setup and Testing Guide
 
